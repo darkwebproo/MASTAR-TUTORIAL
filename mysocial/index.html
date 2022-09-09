@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NokoSocial</title>
+    <title>MySocial</title>
     <!-- stylesheet linking -->
     <link rel="stylesheet" href="style.css">
+
     <!-- font awesome linking -->
-    <link rel="stylesheet" href="../../fontawesome/css/all.min.css">
+    <!-- <link rel="stylesheet" href="../../../fontawesome/font-icon/css/all.min.css"> -->
+
     <!-- google font linking -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 
 <body>
@@ -21,10 +24,12 @@
     <nav>
         <div class="container">
             <h2 class="logo">
-                NokoSocial
+                MySocial
             </h2>
             <div class="search-bar">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
                 <input type="search" placeholder="Search for creators, inspirations, and profects">
             </div>
             <div class="create">
@@ -60,22 +65,22 @@
                 --------------------->
                 <div class="sidebar">
                     <a class="menu-item active">
-                        <span>
-                            <i class="fa-solid fa-house-user"></i>
-                        </span>
+                        <span class="material-symbols-outlined">
+                            home
+                            </span>
                         <h3>Home</h3>
                     </a>
                     <a class="menu-item">
-                        <span>
-                            <i class="fa-brands fa-internet-explorer"></i>
-                        </span>
+                        <span class="material-symbols-outlined">
+                            explore
+                            </span>
                         <h3>Explore</h3>
                     </a>
                     <a class="menu-item" id="notifications">
-                        <span>
-                            <i class="fa-solid fa-bell"></i>
+                        <span class="material-symbols-outlined">
+                            notifications
                             <small class="notification-count">9+</small>
-                        </span>
+                            </span>
                         <h3>Notification</h3>
                         <!--==========================
                              NOTICFICATION POPUP 
@@ -138,35 +143,35 @@
                         </div>
                         <!--========= NOTICFICATION POPUP END ==========-->
                     </a>
-                    <a class="menu-item" id="messages-notifications">
-                        <span>
-                            <i class="fa-solid fa-message"></i> 
+                    <a class="menu-item" id="messages-notification">
+                        <span class="material-symbols-outlined">
+                            sms
                             <small class="notification-count">6</small>
-                        </span>
+                            </span>
                         <h3>Messagse</h3>
                     </a>
                     <a class="menu-item">
-                        <span>
-                            <i class="fa-solid fa-bookmark"></i>
-                        </span>
+                        <span class="material-symbols-outlined">
+                            book
+                            </span>
                         <h3>Bookmarks</h3>
                     </a>
                     <a class="menu-item">
-                        <span>
-                            <i class="fa-solid fa-chart-pie"></i>
-                        </span>
+                        <span class="material-symbols-outlined">
+                            account_tree
+                            </span>
                         <h3>Analytics</h3>
                     </a>
-                    <a class="menu-item">
-                        <span>
-                            <i class="fa-brands fa-affiliatetheme"></i>
-                        </span>
+                    <a class="menu-item" id="theme">
+                        <span class="material-symbols-outlined">
+                            dark_mode
+                            </span>
                         <h3>Thems</h3>
                     </a>
                     <a class="menu-item active">
-                        <span>
-                            <i class="fa-solid fa-gear"></i>
-                        </span>
+                        <span class="material-symbols-outlined">
+                            settings
+                            </span>
                         <h3>Settings</h3>
                     </a>
                 </div>
@@ -589,7 +594,9 @@
                         SEARCH BAR
                     ------------------>
                     <div class="search-bar">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span class="material-symbols-outlined">
+                            search
+                            </span>
                         <input type="search" placeholder="Search Messages" id="messages-search">
                     </div>
                     <!-- =====================
